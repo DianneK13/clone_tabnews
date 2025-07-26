@@ -1,6 +1,7 @@
 import database from "infra/database.js";
 
 async function status(request, response) {
+  q;
   const updatedAt = new Date().toISOString();
 
   // SOLUÇÃO DO DESCHAMPS //
@@ -15,10 +16,11 @@ async function status(request, response) {
 
   const databaseName = process.env.POSTGRES_DB;
   const databaseOpenedConnectionsResult = await database.query({
-    text: "SELECT count(*)::int FROM pg_stat_activity WHERE datname = $1;", 
-    values: [databaseName]
+    text: "SELECT count(*)::int FROM pg_stat_activity WHERE datname = $1;",
+    values: [databaseName],
   });
-  const databaseOpenedConnectionsValue = databaseOpenedConnectionsResult.rows[0].count;
+  const databaseOpenedConnectionsValue =
+    databaseOpenedConnectionsResult.rows[0].count;
 
   console.log(databaseOpenedConnectionsValue);
 
