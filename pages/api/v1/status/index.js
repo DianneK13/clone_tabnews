@@ -1,7 +1,6 @@
 import database from "infra/database.js";
 
 async function status(request, response) {
-  q;
   const updatedAt = new Date().toISOString();
 
   // SOLUÇÃO DO DESCHAMPS //
