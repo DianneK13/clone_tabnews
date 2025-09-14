@@ -32,7 +32,6 @@ describe("POST /api/v1/migrations", () => {
         expect(response2.status).toBe(200);
 
         const response2Body = await response2.json();
-        11;
 
         expect(Array.isArray(response2Body)).toBe(true);
         expect(response2Body.length).toBe(0);
