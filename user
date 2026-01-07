@@ -1,0 +1,555 @@
+[33mcommit e3c40b2595b7446b491e0087f401a8355dc445a9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmodel-user[m[33m)[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Wed Dec 24 15:16:40 2025 -0300
+
+    feat: create `user` model and `/api/v1/users` endpoint
+
+[33mcommit b29069164e2c168478287d67b6abb801ac1e23e5[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Wed Dec 24 15:14:51 2025 -0300
+
+    feat: create and use `ValidationError` in `controller.js`
+
+[33mcommit 22a175912557d5ab8486fd0aadbf16c630b4b4c6[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Wed Dec 24 15:09:24 2025 -0300
+
+    build: install `uuid`
+
+[33mcommit d27cd11aab63bc3a1df6967e390a68da549c8bc7[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Mon Dec 22 13:14:19 2025 -0300
+
+    feat: add migration to create `users` table
+
+[33mcommit b289f06f0b1b792d37962cc059213234920d9987[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Mon Dec 22 13:10:53 2025 -0300
+
+    feat: add `runPendingMigratios` method to  `orchestrator`
+
+[33mcommit 07b8179bab66827603eb566ce267240cb0643251[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Mon Dec 22 13:08:04 2025 -0300
+
+    feat: hide `migrator` logs
+
+[33mcommit 3f5bb2c1dcf0a07c5485c2bd145041ab97683287[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Mon Dec 22 11:44:13 2025 -0300
+
+    chore: remove test migration file
+
+[33mcommit a4f88018747cba9c7926f2654d5f35332b7c63c8[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Merge: c692529 b2d148a
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Tue Sep 16 10:13:42 2025 -0300
+
+    Merge pull request #34 from DianneK13/create-migrator-model
+    
+    Cria model `migrator` e usa no `/api/v1/migrations`
+
+[33mcommit b2d148af0f5ed64197e023db73b3ba56d858a7fc[m[33m ([m[1;31morigin/create-migrator-model[m[33m)[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Tue Sep 16 10:10:21 2025 -0300
+
+    refactor: make `/api/v1/migrations`use `migrator` model
+
+[33mcommit 845ce16be9999438669aeff4f27499e82e52c835[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Tue Sep 16 10:09:03 2025 -0300
+
+    feat: create `migrator` model
+
+[33mcommit c6925293e73bcda3b1404f1b30c668108e8031c1[m
+Merge: 9473650 670adbf
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Sun Sep 14 16:54:48 2025 -0300
+
+    Merge pull request #33 from DianneK13/costum-errors
+    
+    Adiciona o `controller.errorHandlers` ao `/migrations` endpoint
+
+[33mcommit 670adbf2d32c6328072aea9b097cf70220f055f0[m[33m ([m[1;31morigin/costum-errors[m[33m)[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Sun Sep 14 16:50:58 2025 -0300
+
+    refactor: use `controller.errorHandlers` in `/migrations` endpoint
+
+[33mcommit 9473650458af19412e74b2200c7872210c9ebb8e[m
+Merge: 4ddf1d0 d6d3e43
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Sun Sep 14 16:12:43 2025 -0300
+
+    Merge pull request #32 from DianneK13/costum-errors
+    
+    Padronização dos Controllers
+
+[33mcommit d6d3e432fc0d90c439f81174cb306ee97b30ee3a[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Sun Sep 14 16:01:53 2025 -0300
+
+    test: fix `/status/get.test.js` description from `/migrations` to `/status`
+
+[33mcommit 12449092a717aea5a43811f031629e44faafbc74[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Sun Sep 14 15:58:25 2025 -0300
+
+    test: remove unused line from `/migrations/post.test.js`
+
+[33mcommit cf55b60841b99a8aab7755d8b92689ef1f44eaf9[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Sun Sep 14 15:42:25 2025 -0300
+
+    chore: add `--verbose` to `test:watch`
+
+[33mcommit db5f6056635a7da0eb093f671674260a0a96920c[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Sun Sep 14 15:39:19 2025 -0300
+
+    refactor: use `next-connect` in `/migrations` and `/status`
+
+[33mcommit c146a3e6e1459f2496a3b14188f987bc2b565466[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Sun Sep 14 15:33:52 2025 -0300
+
+    feat: use `ServiceError` in `datbase.js`
+
+[33mcommit 18d74e5dbbb9ca92aac38e65e6526fc07f45382d[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Sun Sep 14 15:32:24 2025 -0300
+
+    feat: add `MethodNotAllowedError` and `ServiceError`
+
+[33mcommit bf3f87599e0fff0611591e39299184ed74c566bd[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Sun Sep 14 10:25:39 2025 -0300
+
+    build: install `next-connect`
+
+[33mcommit 4ddf1d047c4c2eb060cfd3a14dacebd87f78d6c2[m
+Merge: 721d39a f31c9ac
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Tue Sep 9 11:09:45 2025 -0300
+
+    Merge pull request #31 from DianneK13/custom-errors
+    
+    Implementa `InternalServerError`
+
+[33mcommit f31c9acd339422e59b0507fa2ecb1c083ffa1a95[m
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Tue Sep 9 13:56:16 2025 +0000
+
+    feat: create and use `InternalServerError` in `api/v1/status`
+
+[33mcommit 39fab9982616d585ee9e6084bcb3cc59004c32ee[m
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Tue Sep 9 13:54:56 2025 +0000
+
+    fix: handle `client` as `undefined` in `database.js`
+
+[33mcommit 721d39a743753c11b87506cbe2e2d2513eec9e1e[m
+Merge: 3ad0082 96dd8e1
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Thu Sep 4 08:43:40 2025 -0300
+
+    Merge pull request #30 from DianneK13/status-page
+    
+    Adiciona versão inicial da página `/status`
+
+[33mcommit 96dd8e10b1d6d2009049cde184faec2bca6121bf[m
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Wed Sep 3 21:07:25 2025 +0000
+
+    refactor: rename `Status()` to `DatabaseStatus()` and improve UI formatting
+
+[33mcommit eb4b2dd3ee6e2312343e8cbee6737e843f49de5a[m
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Wed Sep 3 20:29:23 2025 +0000
+
+    feat: add initial version of `/status` page
+
+[33mcommit ac0e6ae6ce484488ff48f795a9791182f7a016bf[m
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Wed Sep 3 20:28:05 2025 +0000
+
+    build: install `swr`
+
+[33mcommit 3ad0082af9931181a1ac8e17339ea25eca89500e[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Mon Aug 25 18:10:38 2025 -0300
+
+    fix: change `join` to `resolve` in `/api/v1/migrations`
+
+[33mcommit a8efb6d1d52ea02e036468f9d4ab3fe104a0b713[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Mon Aug 25 14:37:05 2025 -0300
+
+    refactor: use `orchestrator.clearDatabase()` in tests
+
+[33mcommit bd6c536d7a67902ebbde3b7b318c3731ddfb5f4b[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Mon Aug 25 14:15:42 2025 -0300
+
+    test: rename all descriptions to use new pattern
+
+[33mcommit f9c124b1c458190a617673c05e7f0306957ec4c7[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Mon Aug 25 13:59:26 2025 -0300
+
+    feat: add `trap` to `dev`, `test` and `test:watch` scripts
+
+[33mcommit 306b75b762b0ed4950efb448424d29b2b00873d3[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Mon Aug 25 09:20:04 2025 -0300
+
+    feat: add `posttest` script
+
+[33mcommit b635c7402f520ec7ee5b6c5a83fbc1391e153bb4[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Mon Aug 25 09:11:12 2025 -0300
+
+    refactor: move `test` scripts to top
+
+[33mcommit d01daa6a3c8e5134f29a603c0530209ac7c0f627[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Mon Aug 25 09:09:52 2025 -0300
+
+    refactor: rename `migration`scripts to `migrations`
+
+[33mcommit ca43d27cb7edd3c8b59707028e4cc6b4784b1c6e[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Mon Aug 25 09:07:14 2025 -0300
+
+    refactor: rename `wait-for-postgres` script to `services:wait:database`
+
+[33mcommit 23230eeb3ced1d0e0d797ad62a75c26947a93e16[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Sun Aug 24 09:12:31 2025 -0300
+
+    build: update dependencies
+
+[33mcommit 41375cebeaecdc87d68ad59406c8c74bbda08553[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Sun Aug 24 08:59:10 2025 -0300
+
+    build: lock dependencies versions
+
+[33mcommit 5c7e752906fa7fef8e754973c8efc686e011b7fa[m
+Merge: fef2609 f3269d2
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Sat Aug 23 07:52:14 2025 -0300
+
+    Merge pull request #20 from DianneK13/create-license-file
+    
+    docs: create `LICENSE` file
+
+[33mcommit f3269d2dffa8b55ca5807d6981781b22fb3baa55[m
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Sat Aug 23 07:51:00 2025 -0300
+
+    docs: create `LICENSE` file
+
+[33mcommit fef260958f4be740a2ebfdaab3daf1178bdf1931[m
+Merge: e25b2ef b78b6fa
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Fri Aug 8 20:42:52 2025 -0300
+
+    Merge pull request #19 from DianneK13/hooks
+    
+    Add `Husky` and `Commitizen`
+
+[33mcommit b78b6fa849d2467df98d98024f0be15ff623ef24[m[33m ([m[1;31morigin/hooks[m[33m)[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Fri Aug 8 20:39:13 2025 -0300
+
+    ci: add `Commitizen` and `commit` npm script
+
+[33mcommit b3ac09f709ca2445a45848517322e069e733233b[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Fri Aug 8 20:32:30 2025 -0300
+
+    ci: add `Husky` and `commit-msg` hook
+
+[33mcommit e25b2ef7acd89078dbcd1d3bb129ca38e206f686[m
+Merge: 4f44273 c70eb5e
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Fri Aug 8 18:47:59 2025 -0300
+
+    Merge pull request #18 from DianneK13/lint-commits
+    
+    Add `commit` linting
+
+[33mcommit c70eb5e55e530806390ca8b13458fd3318e5bd4f[m[33m ([m[1;31morigin/lint-commits[m[33m)[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Fri Aug 8 18:01:44 2025 -0300
+
+    ci: add `commitlint` job in `Linting` GitHub Action
+
+[33mcommit 4cce23552af09a555f398ad4dd64a813a914af99[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Fri Aug 8 16:51:31 2025 -0300
+
+    ci: add `commitlint` with `Convencional Commits` config
+
+[33mcommit 4f44273e130db2a602bfe6d0867659c5c1bf5452[m
+Merge: 4fc68ff 0d07f76
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Fri Aug 8 09:15:42 2025 -0300
+
+    Merge pull request #17 from DianneK13/lint-quality-actions
+    
+    Adds `lint:eslint:check` + `eslint` job in `Linting` GitHub Action
+
+[33mcommit 0d07f7694f40aa0024a06046a50daefa92047ad4[m[33m ([m[1;31morigin/lint-quality-actions[m[33m)[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Fri Aug 8 09:14:36 2025 -0300
+
+    fix `eslint` linting
+
+[33mcommit cf2d0939ecaf148b604353fe733c5d0929fb550d[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Fri Aug 8 08:59:45 2025 -0300
+
+    adds `eslint` job in `Linting` GitHub Action
+
+[33mcommit 142671ea86ba3f73ec98a02bcc9aa19cd03a2455[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Fri Aug 8 08:55:42 2025 -0300
+
+    adds `lint:eslint:check` script with `ESLint`
+
+[33mcommit 4fc68ff3853a566c9096c5263ee16db4f922ef8b[m
+Merge: 591f33b 1c2eec7
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Mon Jul 28 15:40:51 2025 -0300
+
+    Merge pull request #16 from DianneK13/lint-format-action
+    
+    adds `Linting` GitHub Action
+
+[33mcommit 1c2eec70e4b1910f79cc5c55515aace69b69c163[m[33m ([m[1;31morigin/lint-format-action[m[33m)[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Mon Jul 28 15:37:56 2025 -0300
+
+    fix `prettier` style linting
+
+[33mcommit fb5ed48012cc147b6906854b402413ffdb4b01f7[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Mon Jul 28 15:19:46 2025 -0300
+
+    adds `Linting` GitHub Action
+
+[33mcommit 591f33b58ff5d3da5ae3dcac99ae85b10804d61c[m
+Merge: b99c2a2 41c0422
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Mon Jul 28 15:06:53 2025 -0300
+
+    Merge pull request #15 from DianneK13/actions
+    
+    adds `Automated Tests` GitHub Action
+
+[33mcommit 41c042215d2a7f484ee920e82885be250f31552f[m[33m ([m[1;31morigin/actions[m[33m)[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Mon Jul 28 08:43:35 2025 -0300
+
+    adds `Automated Tests` GitHub Action
+
+[33mcommit b99c2a2a632099f835c22c68583a85f654f345ac[m
+Merge: 52c24c3 13cccf0
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Sun Jul 27 17:23:36 2025 -0300
+
+    Merge pull request #14 from DianneK13/fix-npm-test
+    
+    makes `npm test` more robust with `async-retry` and `orchestrator.js`
+
+[33mcommit 13cccf0f6ddb96417b89a953621aebed32e28eb1[m[33m ([m[1;31morigin/fix-npm-test[m[33m)[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Sat Jul 26 16:24:01 2025 -0300
+
+    makes `npm test` more robust with `async-retry` and `orchestrator.js`
+    > obs.: Também faz algumas alterações no pattern do código por conta do ctrl+S do prettier.
+
+[33mcommit 52c24c35c597fd0351b6e0b9ce89a14cd485c215[m
+Merge: 0bc371d a4f0b37
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Fri Jul 25 09:55:31 2025 -0300
+
+    Merge pull request #13 from DianneK13/wait-for-postgres
+    
+    adds `wait-for-postgres.js` script
+
+[33mcommit a4f0b37a36eac129abfa52badc9242d6a07db9b2[m[33m ([m[1;31morigin/wait-for-postgres[m[33m)[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Fri Jul 25 09:52:53 2025 -0300
+
+    adds `wait-for-postgres.js` script
+
+[33mcommit 0bc371d410d0067567ef53dea68ba4fdaed8b1b5[m[33m ([m[1;31morigin/fix-migrations-endpoint[m[33m)[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Thu Jul 3 09:28:19 2025 -0300
+
+    fix `/migrations` endpoint connection bug
+
+[33mcommit 8ec746574dbd0b57920f6c247f086869e8eeafc2[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Mon Jun 30 19:44:12 2025 -0300
+
+    fixes `runInBand` error
+
+[33mcommit 79e15de278563f2f6f5e806d4336f0ea5ad2cf6f[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Sun Jun 29 11:43:24 2025 -0300
+
+    remove arquivo `cabelo.txt`
+
+[33mcommit f1b827fc9340808d16e3041c6fde83738e1d1a09[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Sun Jun 29 11:22:03 2025 -0300
+
+    adiciona arquivo `cabelo.txt`
+
+[33mcommit bdd36f73fc6e25e4a7f15c9b97cecf7716fce399[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Tue Jun 24 10:43:08 2025 -0300
+
+    removes some unnecessary comments
+
+[33mcommit 10780f39b993f2546793ecdb6636c9fd2cacc029[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Tue Jun 24 10:41:25 2025 -0300
+
+    adds `/api/v1/migrations` endpoint
+
+[33mcommit 9add1f6f164bc4614946583e6c8980dcb3b1e8f5[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Sun Jun 1 11:35:55 2025 -0300
+
+    adds migration scripts
+
+[33mcommit 6e9414c9c4c83b2edd1006f6ef4d13dc80ded07a[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Sat May 24 11:15:49 2025 -0300
+
+    handles database ssl connection
+
+[33mcommit b52980b0a475a9a5a081c08c615953fc53f7ca3c[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Tue May 20 20:58:55 2025 -0300
+
+    makes `database.js` `client.connect()` more robust to errors
+
+[33mcommit 2963918f870363e129cb27fd1a9d8b837df53883[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Sun May 18 16:00:44 2025 -0300
+
+    finish `/api/v1/status` endpoint
+
+[33mcommit 0eba339721a4cc9ab8d6e2687d579fc49614e029[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Sun May 18 15:59:16 2025 -0300
+
+    make `database.js` more robust to error handling
+
+[33mcommit 23f0c28b2d42b662779d1c7511c48bfca149263e[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Thu May 15 21:04:03 2025 -0300
+
+    add services scripts
+
+[33mcommit d6200154a0454d0abfdb7a64c9fd6894b3c40998[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Thu May 15 20:49:17 2025 -0300
+
+    add `jsconfig.json` file
+
+[33mcommit 50058008d3e80fb6d53320423d8d27ab537d8520[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Thu May 15 19:16:10 2025 -0300
+
+    move `.env` file to `.env.development`
+
+[33mcommit 0d0447b8cffce14fdbcf00b2030f8d5151db0ff1[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Wed May 14 20:42:24 2025 -0300
+
+    add `database.js` and `.env` files
+
+[33mcommit 8b5bd1fa5e3de85e014705f7bcb4489742fa277c[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Sat May 10 19:46:26 2025 -0300
+
+    add `compose` config file with database service
+
+[33mcommit 2b62419450779f0c6b397832f9db4d8c58389ef4[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Sat May 10 19:43:18 2025 -0300
+
+    arruma identação para a padrão
+
+[33mcommit bf0a3fe6367e24af3efe8a880d6b08eaefb0adaa[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Wed May 7 09:40:23 2025 -0300
+
+    add `/api/v1/status` endpoint
+
+[33mcommit 074296ba2f4bd498eb43fa561611adbd59c8cf00[m
+Author: Maria Clara <mclarar.almeida@gmail.com>
+Date:   Sun May 4 16:38:27 2025 -0300
+
+    install `jest` and configure test scripts
+
+[33mcommit 5ce832025531c60c95b13b44e644232b2a307620[m
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Sat Apr 26 22:16:53 2025 +0000
+
+    Adiciona `.prettierignore`
+
+[33mcommit b94ed280e90c2c10c60610cb227628ba30f21d68[m
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Sat Apr 26 21:56:27 2025 +0000
+
+    Adiciona scripts `lint:check` e `lint:fix`
+
+[33mcommit a501772c911facb90eff95e829a7828ca18dd260[m
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Sat Apr 26 15:17:32 2025 +0000
+
+    Adiciona arquivo `.editorconfig`
+
+[33mcommit a19a16446102937933d43a7edc7d3bd86e996c92[m
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Thu Apr 24 14:06:49 2025 +0000
+
+    Modifica a frase
+
+[33mcommit 2aeaecc964cb11f9c857d63dd015a7718dddd74a[m
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Wed Apr 23 13:56:31 2025 +0000
+
+    Adiciona página inicial
+
+[33mcommit 0eb2b2b52672b5d0d2b37d288c7b0dcc562e5b9e[m
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Wed Apr 23 13:52:19 2025 +0000
+
+    Adiciona os arquivos de manifesto
+
+[33mcommit aeea72907801bc8a80d335d4a55afd39779e7d43[m
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Wed Apr 23 12:16:23 2025 +0000
+
+    Adiciona o arquivo .gitignore
+
+[33mcommit eeb8006f42a43b947776512f750b425f90dc4c3f[m
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Tue Apr 22 12:08:09 2025 +0000
+
+    Definição da versão default
+
+[33mcommit 3451fab5e9522e48090b55ce6f4ab0cf42beea7d[m
+Author: Maria Clara Rodrigues de Almeida <140253955+DianneK13@users.noreply.github.com>
+Date:   Mon Apr 21 16:55:29 2025 -0300
+
+    Initial commit
